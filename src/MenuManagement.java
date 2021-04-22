@@ -12,7 +12,7 @@ public class MenuManagement {
 			System.out.println("1. Add Plan");
 			System.out.println("2. Delete Plan");
 			System.out.println("3. Edit Plan");
-			System.out.println("4. View Plan");
+			System.out.println("4. View Plans ");
 			System.out.println("5. Exit");
 			System.out.println("Slect one number between 1-6");
 			num=input.nextInt();
@@ -26,7 +26,7 @@ public class MenuManagement {
 				planManager.editplan();
 			}
 			else if(num==4) {
-				planManager.viewplan();
+				planManager.viewplans();
 			}
 			else {
 				continue;
