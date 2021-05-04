@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 
 public class MenuManagement {
 
@@ -8,7 +8,6 @@ public class MenuManagement {
 		PlanManager planManager=new PlanManager(input);
 		int num=0;
 		while(num!=6) {
-		
 			System.out.println("1. Add Plan");
 			System.out.println("2. Delete Plan");
 			System.out.println("3. Edit Plan");
@@ -29,9 +28,9 @@ public class MenuManagement {
 				planManager.viewplans();
 			}
 			else {
-				continue;
+				System.out.println("Á¾·á");
+				break;
 			}
 		}
-	}
-	
+	}	
 }
